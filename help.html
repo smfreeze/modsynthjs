@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Page</title>
+    <link rel="stylesheet" href="guides.css">
+ </script>
+</head>
+<body>
+    <button id="mainBtn">Main Page</button>
+    <button id="examplesBtn">Examples Page</button>
+    <button id="modulesBtn">Modules Page</button>
+
+    <div class="help-body">
+        <h1>Help Page</h1>
+        <h2>What is modular synthesis?</h2>
+        <p>blah blah blah</p>
+        This is a guide.
+    </div>
+</body>
+
+<script>
+    document.getElementById('mainBtn').addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+    document.getElementById('examplesBtn').addEventListener('click', () => {
+        window.location.href = 'examples.html';
+    });
+    document.getElementById('modulesBtn').addEventListener('click', () => {
+        window.location.href = 'modules/modules.html';
+    });
+
+</script>
+</html>

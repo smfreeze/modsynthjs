@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples Page</title>
+    <link rel="stylesheet" href="guides.css">
+ </script>
+</head>
+<body>
+    <button id="mainBtn">Main Page</button>
+    <button id="helpBtn">Help Page</button>
+
+    <div class="help-body">
+        <h1>Examples</h1>
+        <h3>Some downloadable example projects demonstrating certain features of the project</h3>
+    </div>
+</body>
+
+<script>
+    document.getElementById('mainBtn').addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+    document.getElementById('helpBtn').addEventListener('click', () => {
+        window.location.href = 'help.html';
+    });
+
+</script>
+</html>

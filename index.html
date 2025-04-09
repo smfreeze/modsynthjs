@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Mod Synth</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="main.js"></script>
+ </script>
+</head>
+<body>
+    <div class="top-bar">
+        <button id="examplesBtn">Examples</button>
+        <button id="helpBtn">Help</button>
+        <button id="playBtn">Play</button>
+        <button id="saveBtn">Save</button>
+        <button id="loadBtn">Load</button>
+    </div>
+
+    <div class="main-content">
+        <div class="sidebar" id="sidebar">
+            <div class="indicator" id="indicator">></div>
+            <div class="modules-header">Modules</div>
+            <div class="modules-text">Click on any placed modules heading <br>to find out more about that module!</div>
+            <div class="modules">
+                <p class="modules-subheader">Oscillators</p>
+                <div id="Sin">Sine</div>
+                <div id="Tri">Triangle</div>
+                <div id="Saw">Sawtooth</div>
+                <div id="Squ">Square</div>
+                <p class="modules-subheader">Mathematics</p>
+                <div id="Add">Add</div>
+                <div id="Con">Constant</div>
+                <div id="Mul">Multiply</div>
+                <div id="Div">Division</div>
+                <p class="modules-subheader">Input</p>
+                <div id="Midi">MIDI</div>
+                <div id="Seq">Sequencer</div>
+                <p class="modules-subheader">Other</p>
+                <div id="ADSR">ADSR</div>
+                <div id="Filter">Filter</div>
+                <p class="modules-subheader">Output</p>
+                <div id="Out">Audio Out</div>
+            </div>
+        </div>
+        <div class="editor-area"></div>
+    </div>
+</body>
+</html>
